@@ -1,10 +1,11 @@
 import React from "react";
+import "./Nav.scss";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <>
-      <h2> Projects!</h2>
+    <div className="app__nav">
+      <h2> Projects:</h2>
       <nav>
         <ul>
           <li>
@@ -14,14 +15,14 @@ const Nav = () => {
             <Link to="/sproutbud">Sprout Bud</Link>
           </li>
           <li>
-            <Link to="/about">Rumblr</Link>
+            <Link to="/moodring">MoodRing</Link>
           </li>
           <li>
-            <Link to="/about">MoodRing</Link>
+            <Link to="/rumblr">Rumblr</Link>
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

@@ -1,8 +1,14 @@
 import React from "react";
+import "./About.scss";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
+      <img
+        src="images/dyanna_550.jpg"
+        className="about__image"
+        alt="dyannaturner"
+      />
       <h3>Greetings!</h3>
       <p>I am a web developer living and working in Atlanta, Georgia.</p>
       <p>

@@ -1,0 +1,12 @@
+@import "./variables.scss";
+.about {
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: $contentBackgroundColor;
+}
+.about__image {
+  height: 20vmin;
+  border-radius: 100%;
+}
